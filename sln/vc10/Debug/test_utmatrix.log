@@ -1,0 +1,66 @@
+﻿Сборка начата 15.12.2018 3:57:06.
+     1>Проект "D:\Git\mp2-lab2-matrix\sln\vc10\test_utmatrix.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (gtest.vcxproj, sample_utmatrix.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\Program\MVS\VC\bin\CL.exe /c /I../../gtest /I../../include /ZI /nologo /W3 /WX- /Od /Oy- /D _VARIADIC_MAX=10 /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\test\test_main.cpp ..\..\test\test_tmatrix.cpp ..\..\test\test_tvector.cpp
+         test_tvector.cpp
+     1>d:\git\mp2-lab2-matrix\gtest\gtest.h(18992): warning C4805: !=: небезопасное смешение типа "const int" и типа "const bool" в операции
+                 d:\git\mp2-lab2-matrix\test\test_tvector.cpp(143): см. ссылку на создание экземпляров функции шаблон при компиляции "testing::AssertionResult testing::internal::CmpHelperNE<int,bool>(const char *,const char *,const T1 &,const T2 &)"
+                 with
+                 [
+                     T1=int
+         ,            T2=bool
+                 ]
+     1>d:\git\mp2-lab2-matrix\gtest\gtest.h(18863): warning C4805: ==: небезопасное смешение типа "const int" и типа "const bool" в операции
+                 d:\git\mp2-lab2-matrix\gtest\gtest.h(18900): см. ссылку на создание экземпляров функции шаблон при компиляции "testing::AssertionResult testing::internal::CmpHelperEQ<T1,T2>(const char *,const char *,const T1 &,const T2 &)"
+                 with
+                 [
+                     T1=int
+         ,            T2=bool
+                 ]
+                 d:\git\mp2-lab2-matrix\test\test_tvector.cpp(129): см. ссылку на создание экземпляров функции шаблон при компиляции "testing::AssertionResult testing::internal::EqHelper<false>::Compare<int,bool>(const char *,const char *,const T1 &,const T2 &)"
+                 with
+                 [
+                     T1=int
+         ,            T2=bool
+                 ]
+                 d:\git\mp2-lab2-matrix\test\test_tvector.cpp(129): см. ссылку на создание экземпляров функции шаблон при компиляции "testing::AssertionResult testing::internal::EqHelper<false>::Compare<int,bool>(const char *,const char *,const T1 &,const T2 &)"
+                 with
+                 [
+                     T1=int
+         ,            T2=bool
+                 ]
+         test_tmatrix.cpp
+     1>d:\git\mp2-lab2-matrix\gtest\gtest.h(18863): warning C4805: ==: небезопасное смешение типа "const int" и типа "const bool" в операции
+                 d:\git\mp2-lab2-matrix\gtest\gtest.h(18900): см. ссылку на создание экземпляров функции шаблон при компиляции "testing::AssertionResult testing::internal::CmpHelperEQ<T1,T2>(const char *,const char *,const T1 &,const T2 &)"
+                 with
+                 [
+                     T1=int
+         ,            T2=bool
+                 ]
+                 d:\git\mp2-lab2-matrix\test\test_tmatrix.cpp(124): см. ссылку на создание экземпляров функции шаблон при компиляции "testing::AssertionResult testing::internal::EqHelper<false>::Compare<int,bool>(const char *,const char *,const T1 &,const T2 &)"
+                 with
+                 [
+                     T1=int
+         ,            T2=bool
+                 ]
+                 d:\git\mp2-lab2-matrix\test\test_tmatrix.cpp(124): см. ссылку на создание экземпляров функции шаблон при компиляции "testing::AssertionResult testing::internal::EqHelper<false>::Compare<int,bool>(const char *,const char *,const T1 &,const T2 &)"
+                 with
+                 [
+                     T1=int
+         ,            T2=bool
+                 ]
+         test_main.cpp
+         Создание кода...
+       Link:
+         D:\Program\MVS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Git\mp2-lab2-matrix\sln\vc10\Debug\test_utmatrix.exe" /INCREMENTAL /NOLOGO /LIBPATH:Debug gtest.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Git\mp2-lab2-matrix\sln\vc10\Debug\test_utmatrix.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Git\mp2-lab2-matrix\sln\vc10\Debug\test_utmatrix.lib" /MACHINE:X86 /SAFESEH Debug\test_main.obj
+         Debug\test_tmatrix.obj
+         Debug\test_tvector.obj
+         "D:\Git\mp2-lab2-matrix\sln\vc10\Debug\gtest.lib"
+     1>test_main.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/SAFESEH"
+         test_utmatrix.vcxproj -> D:\Git\mp2-lab2-matrix\sln\vc10\Debug\test_utmatrix.exe
+     1>Сборка проекта "D:\Git\mp2-lab2-matrix\sln\vc10\test_utmatrix.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:03.49
